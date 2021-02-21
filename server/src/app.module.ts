@@ -3,7 +3,6 @@ import { TaskModule } from "./task/task.module";
 import { ProjectModule } from "./project/project.module";
 import { PostModule } from "./post/post.module";
 import { UserModule } from "./user/user.module";
-import { RolesModule } from "./roles/roles.module";
 import { ACLModule } from "./auth/acl.module";
 import { AuthModule } from "./auth/auth.module";
 import { MorganModule } from "nest-morgan";
@@ -19,7 +18,6 @@ import { GraphQLModule } from "@nestjs/graphql";
     ProjectModule,
     PostModule,
     UserModule,
-    RolesModule,
     ACLModule,
     AuthModule,
     MorganModule,
