@@ -18,7 +18,6 @@ import { TaskIndex } from "./task/TaskIndex";
 import { ProjectIndex } from "./project/ProjectIndex";
 import { PostIndex } from "./post/PostIndex";
 import { UserIndex } from "./user/UserIndex";
-import { RolesIndex } from "./roles/RolesIndex";
 
 const App = (): React.ReactElement => {
   const history = useHistory();
@@ -91,7 +90,6 @@ const AppLayout = (): React.ReactElement => {
             <PrivateRoute path="/projects" component={ProjectIndex} />
             <PrivateRoute path="/posts" component={PostIndex} />
             <PrivateRoute path="/users" component={UserIndex} />
-            <PrivateRoute path="/roles" component={RolesIndex} />
           </Switch>
         </Page>
       </MainLayout.Content>

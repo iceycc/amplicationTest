@@ -56,13 +56,6 @@ model User {
   username  String    @unique
 }
 
-model Roles {
-  createdAt DateTime @default(now())
-  id        String   @id @default(cuid())
-  name      String?
-  updatedAt DateTime @updatedAt
-}
-
 enum EnumTaskStatus {
   new
   pending
